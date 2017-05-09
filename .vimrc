@@ -169,3 +169,7 @@ function QuoteDelim(char)
  return a:char.a:char."\<Esc>i"
  endif
 endf
+
+:map <F9> ^i#<Space><Esc>$a<Space>#<Esc>yyppkkv$r#jjv$r#
+
+
